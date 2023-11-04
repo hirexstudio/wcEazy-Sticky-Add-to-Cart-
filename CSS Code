@@ -1,0 +1,85 @@
+/* Single Product Add to Cart Sticky Bar CSS */
+
+button.wceazy_frontend_psb_add_to_cart {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+	  text-align: center !important;
+}
+
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right button {
+    padding: 9px 25px !important;
+}
+
+@media (max-width:767px){
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right button {
+    padding: 2px 0px !important;
+	  font-size:12.5px !important;
+	  width: 135px !important;
+}
+	
+h1.wceazy_frontend_psb_title {
+    font-size: 14.8px !important;
+}
+
+.wceazy_frontend_psb .wceazy_frontend_psb_part_left .wceazy_frontend_psb_thumbnail img {
+    max-height: 50px !important;
+    max-width: 50px !important;
+	  border-radius:50px !important;
+}
+
+.wceazy_frontend_psb_product_quantity {
+    display: none !important;
+}	
+	
+h1.wceazy_frontend_psb_title {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
+	
+	
+.wceazy_frontend_psb .wceazy_frontend_psb_part_left .wceazy_frontend_psb_thumbnail {
+    margin: 0 7px 0 0 !important;
+}
+	
+.wceazy_frontend_psb .wceazy_frontend_psb_details .wceazy_frontend_psb_title {
+    margin: 0 5px 0 0 !important;
+}
+
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_variations {
+    margin: 5px 0 5px 0 !important;
+}	
+	
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right .wceazy_frontend_psb_variations select {
+    height: 30px;
+	  max-width:135px !important;
+	  min-width:135px !important;
+}
+	
+.wceazy_frontend_psb .wceazy_frontend_psb_part_right select {
+    background-size: 5px !important;
+	  font-size: 12px !important;
+	  padding: 5px 7px 5px 7px !important;
+}
+	
+	span.wceazy_frontend_psb_product_price{
+		font-size:14px !important;
+		margin:0 2px 0 0 !important;
+	}
+	
+}
+
+
+
+.wceazy_frontend_psb.bottom {
+    border-top: 1px solid #D6D6D6 !important;
+}
+
+.wceazy_frontend_psb.wceazy_frontend_psb_desktop.active {
+    background: aliceblue !important;
+}
+
+.wceazy_frontend_psb .wceazy_frontend_psb_part_left .wceazy_frontend_psb_thumbnail img {
+	  border-radius:50px !important;
+}
